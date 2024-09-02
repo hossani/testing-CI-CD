@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello word!
+        run: echo 'print message'
+      - name: mutliplication
+        run: echo 10*2
